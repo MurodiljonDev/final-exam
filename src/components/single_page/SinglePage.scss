@@ -1,0 +1,12 @@
+.single_page_box{
+    padding: 20px;
+    .single_page-title{
+        & h1{
+            color: rgb(94, 93, 93);
+            font-weight: 700;
+        }
+    }
+    .single_item{
+        border-bottom: 1px solid #000;
+    }
+}

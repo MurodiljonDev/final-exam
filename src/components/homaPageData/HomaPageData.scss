@@ -1,0 +1,29 @@
+.home_page-box{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background-color: #fff;
+    color: #000;
+    padding-left: 50px;
+    padding-right: 50px;
+    .home_page-item{
+        position: relative;
+        border-bottom: 1px solid rgba(128, 128, 128, 0.362);
+        .item_title{
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            & p{
+              color: black;  
+              font-weight: bold;
+            }
+            & span{
+                color:grey;
+                font-weight: 500;
+            }
+        }
+        .item_elm{
+            font-size: 40px;
+        }
+    }
+}

@@ -1,0 +1,51 @@
+.nav_box{
+    display: flex;
+    .AppBar_Input{
+        display: flex;
+        padding-right: 300px;
+    }
+}
+.toolabar-style{
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: flex-start;
+    justify-content:flex-start;
+    background-color: #fff;
+}
+.toolbar_things{
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: flex-start;
+}
+.toolbar_btn{
+    position: absolute;
+    left: -80px;
+    top:-35px;
+    padding: 5px 10px;
+    background-color:#fff;
+    border-radius: 10px;
+    border: 1px solid blue;
+    color: blue;
+    & span{
+        font-size: 16px;
+    }
+}
+.toolbar_title{
+    color: grey;
+}
+.AppBar_Input{
+    background-color: #fff;
+}
+.inputTextEnterSlider{
+    padding-left: 15px;
+    padding-right: 50px;
+    & h2{font-size: 18px;
+        font-weight: 700;
+        color: rgb(101, 101, 101);
+    }
+}
